@@ -1,14 +1,8 @@
-
-/****
- * 
- * FALTA AGREGAR TODO A TEMPERATURA Y MASA
- * falta agregar un evento para el boton de reversa
- * no se ha configurado una tasa de cambio* el valor ingresado por el usuario, solo multiplica lo ingresado por el ususario por el valor de la moneda de origen
+/**
  * 
  * 
  * **/
 
-package conversor;
 
 import java.awt.EventQueue;
 import java.awt.Font;
@@ -27,18 +21,18 @@ import javax.swing.DefaultComboBoxModel;
 
 public class ConversorFrontEnd {
 
-//------------------------------VARIABLES----------------------------//
-	private JFrame frmConversorAlura;
-	private JTextField OrigentextField;
-	private JTextField DestinotextField;
-	private JComboBox<String> ListaOrigen;
-	private JComboBox<String> ListaDestino;
-	private DefaultComboBoxModel<String> monedaModel;
-	private DefaultComboBoxModel<String> temperaturaModel;
-	private DefaultComboBoxModel<String> MasaModel;
+	//------------------------------VARIABLES----------------------------//
+		private JFrame frmConversorAlura;
+		private JTextField OrigentextField;
+		private JTextField DestinotextField;
+		private JComboBox<String> ListaOrigen;
+		private JComboBox<String> ListaDestino;
+		private DefaultComboBoxModel<String> monedaModel;
+		private DefaultComboBoxModel<String> temperaturaModel;
+		private DefaultComboBoxModel<String> MasaModel;
 
-	int seleccionOrigenPrevio = -1;
-//----------------------------------------------------------------------//
+		int seleccionOrigenPrevio = -1;
+	//----------------------------------------------------------------------//
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -53,16 +47,15 @@ public class ConversorFrontEnd {
 		});
 	}
 
-	
+
 
 	public ConversorFrontEnd() {
 		initialize();
 	}
 
 	
-	
 	private void initialize() {
-
+		
 		// ------------------------------------LISTAS------------------------//
 		monedaModel = new DefaultComboBoxModel<>();
 		monedaModel.addElement("Dólar");
