@@ -21,7 +21,4 @@ Para convertir simplemente sigue estos pasos:
 
 ¡Esperamos que este conversor te sea útil en tus tareas diarias! Si tienes alguna pregunta o sugerencia, no dudes en dejar un comentario. ¡Feliz conversión! 🎉
 
-<video width="640" height="360" controls>
-  <source src="https://github.com/diocondoB/JAVA/assets/110919715/06cac918-2acf-4451-8ed0-793f48c6abd4" type="video/mp4">
-</video>
-
+https://github.com/diocondoB/JAVA/assets/110919715/06cac918-2acf-4451-8ed0-793f48c6abd4
